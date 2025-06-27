@@ -98,15 +98,15 @@ y_next = torch.clamp(y_next, -max_val, max_val)
 
 ### Progressive Training (Recommended)
 ```bash
-python gnn_dlasso_progressive.py
+python gnn_dlasso_progressive.py --P 5 --num_epochs 70 --train_size 128 --test_size 32 --batch_size 32 --GHN_iter_num 15 --lr 4e-4 
 ```
 
 ### Standard Training
 ```bash
-python unfolded_train_new.py
+python unfolded_train_new.py --P 5 --num_epochs 70 --train_size 128 --test_size 32 --batch_size 32 --GHN_iter_num 15 --lr 4e-4 
 ```
 
-### Original GNN Training
+### Original GNN Training - worse
 ```bash
 python gnn_dlasso_new.py
 ```
