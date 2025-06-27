@@ -26,7 +26,7 @@ This repository contains an implementation of Deep-Unfolded Distributed ADMM (D-
 ### 4. Training Scripts Overview
 
 #### `gnn_dlasso_progressive.py` (Recommended)
-- **Progressive Learning**: Iterations start at 2, increase to 15 by 75% of epochs
+- **Progressive Learning**: Iterations start at 2, increase to Max iteration by 75% of epochs
 - **Enhanced Stability**: All stability improvements included
 - **Comprehensive Plotting**: Training summary with loss curves and iteration progression
 - **Best Performance**: Recommended for most use cases
