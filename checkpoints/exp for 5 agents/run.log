@@ -1,0 +1,147 @@
+Namespace(exp_name='exp for 5 agents', eval=False, method='u-dadmm', seq_num=0, data='mnist', norm_mean=0.5, norm_std=0.5, train_size=1000, snr=2, test_size=200, batch_size=200, P=5, graph_prob=0.5, graph_type='erods_renyi', case='dlr', model='diff', rho=0.2603, alpha=0.3013, eta=0.0867, gamma=1.1797e-07, beta=0.001226, delta=0.00012665, tau=0.1142, sequential=False, max_iter_seg=2, max_iter=25, num_epochs=2, optimizer='adam', lr=0.001, momentum=0.5, weight_decay=0.05, lr_scheduler=False, device='cpu', valid=True, seed=42)
+Namespace(exp_name='exp for 5 agents', eval=False, method='u-dadmm', seq_num=0, data='mnist', norm_mean=0.5, norm_std=0.5, train_size=1000, snr=2, test_size=200, batch_size=200, P=5, graph_prob=0.5, graph_type='erods_renyi', case='dlr', model='diff', rho=0.2603, alpha=0.3013, eta=0.0867, gamma=1.1797e-07, beta=0.001226, delta=0.00012665, tau=0.1142, sequential=False, max_iter_seg=2, max_iter=25, num_epochs=2, optimizer='adam', lr=0.001, momentum=0.5, weight_decay=0.05, lr_scheduler=False, device='cpu', valid=True, seed=42)
+Namespace(exp_name='exp for 5 agents', eval=False, method='u-dadmm', seq_num=0, data='simulated', norm_mean=0.5, norm_std=0.5, train_size=1000, snr=2, test_size=200, batch_size=200, P=5, graph_prob=0.5, graph_type='erods_renyi', case='dlr', model='diff', rho=0.2603, alpha=0.3013, eta=0.0867, gamma=1.1797e-07, beta=0.001226, delta=0.00012665, tau=0.1142, sequential=False, max_iter_seg=2, max_iter=25, num_epochs=2, optimizer='adam', lr=0.001, momentum=0.5, weight_decay=0.05, lr_scheduler=False, device='cpu', valid=True, seed=42)
+Namespace(exp_name='exp for 5 agents', eval=False, method='u-dadmm', seq_num=0, data='simulated', norm_mean=0.5, norm_std=0.5, train_size=1000, snr=2, test_size=200, batch_size=200, P=5, graph_prob=0.5, graph_type='erods_renyi', case='dlasso', model='diff', rho=0.2603, alpha=0.3013, eta=0.0867, gamma=1.1797e-07, beta=0.001226, delta=0.00012665, tau=0.1142, sequential=False, max_iter_seg=2, max_iter=25, num_epochs=2, optimizer='adam', lr=0.001, momentum=0.5, weight_decay=0.05, lr_scheduler=False, device='cpu', valid=True, seed=42)
+Namespace(exp_name='exp for 5 agents', eval=False, method='u-dadmm', seq_num=0, data='simulated', norm_mean=0.5, norm_std=0.5, train_size=1000, snr=2, test_size=200, batch_size=200, P=5, graph_prob=0.5, graph_type='erods_renyi', case='dlasso', model='diff', rho=0.2603, alpha=0.3013, eta=0.0867, gamma=1.1797e-07, beta=0.001226, delta=0.00012665, tau=0.1142, sequential=False, max_iter_seg=2, max_iter=25, num_epochs=2, optimizer='adam', lr=0.001, momentum=0.5, weight_decay=0.05, lr_scheduler=False, device='cpu', valid=True, seed=42)
+Namespace(exp_name='exp for 5 agents', eval=False, method='u-dadmm', seq_num=0, data='simulated', norm_mean=0.5, norm_std=0.5, train_size=1000, snr=2, test_size=200, batch_size=200, P=5, graph_prob=0.5, graph_type='erods_renyi', case='dlasso', model='diff', rho=0.2603, alpha=0.3013, eta=0.0867, gamma=1.1797e-07, beta=0.001226, delta=0.00012665, tau=0.1142, sequential=False, max_iter_seg=2, max_iter=25, num_epochs=2, optimizer='adam', lr=0.001, momentum=0.5, weight_decay=0.05, lr_scheduler=False, device='cpu', valid=True, seed=42)
+Namespace(exp_name='exp for 5 agents', eval=False, method='u-dadmm', seq_num=0, data='simulated', norm_mean=0.5, norm_std=0.5, train_size=1000, snr=2, test_size=200, batch_size=200, P=5, graph_prob=0.5, graph_type='erods_renyi', case='dlasso', model='diff', rho=0.2603, alpha=0.3013, eta=0.0867, gamma=1.1797e-07, beta=0.001226, delta=0.00012665, tau=0.1142, sequential=False, max_iter_seg=2, max_iter=25, num_epochs=2, optimizer='adam', lr=0.001, momentum=0.5, weight_decay=0.05, lr_scheduler=False, device='cpu', valid=True, seed=42)
+epoch: 0 | train_loss: 2.73 | valid_loss: 2.720
+epoch: 1 | train_loss: 2.72 | valid_loss: 2.717
+epoch: 0 | train_loss: 2.77 | valid_loss: 2.763
+epoch: 1 | train_loss: 2.77 | valid_loss: 2.761
+epoch: 0 | train_loss: 2.81 | valid_loss: 2.800
+epoch: 1 | train_loss: 2.81 | valid_loss: 2.799
+epoch: 0 | train_loss: 2.84 | valid_loss: 2.833
+epoch: 1 | train_loss: 2.84 | valid_loss: 2.832
+epoch: 0 | train_loss: 2.87 | valid_loss: 2.865
+epoch: 1 | train_loss: 2.87 | valid_loss: 2.864
+epoch: 0 | train_loss: 2.91 | valid_loss: 2.900
+epoch: 1 | train_loss: 2.91 | valid_loss: 2.898
+epoch: 0 | train_loss: 2.95 | valid_loss: 2.940
+epoch: 1 | train_loss: 2.95 | valid_loss: 2.938
+epoch: 0 | train_loss: 3.00 | valid_loss: 2.985
+epoch: 1 | train_loss: 2.99 | valid_loss: 2.983
+epoch: 0 | train_loss: 3.05 | valid_loss: 3.036
+epoch: 1 | train_loss: 3.04 | valid_loss: 3.033
+epoch: 0 | train_loss: 3.10 | valid_loss: 3.092
+epoch: 1 | train_loss: 3.10 | valid_loss: 3.088
+epoch: 0 | train_loss: 3.17 | valid_loss: 3.154
+epoch: 1 | train_loss: 3.16 | valid_loss: 3.150
+epoch: 0 | train_loss: 3.24 | valid_loss: 3.222
+epoch: 1 | train_loss: 3.23 | valid_loss: 3.217
+Namespace(exp_name='exp for 5 agents', eval=False, method='u-dadmm', seq_num=0, data='simulated', norm_mean=0.5, norm_std=0.5, train_size=1000, snr=2, test_size=200, batch_size=200, P=5, graph_prob=0.5, graph_type='erods_renyi', case='dlasso', model='diff', rho=0.2603, alpha=0.3013, eta=0.0867, gamma=1.1797e-07, beta=0.001226, delta=0.00012665, tau=0.1142, sequential=False, max_iter_seg=2, max_iter=25, num_epochs=2, optimizer='adam', lr=0.001, momentum=0.5, weight_decay=0.05, lr_scheduler=False, device='cpu', valid=True, seed=42)
+Namespace(exp_name='exp for 5 agents', eval=False, method='u-dadmm', seq_num=0, data='simulated', norm_mean=0.5, norm_std=0.5, train_size=1000, snr=2, test_size=200, batch_size=200, P=5, graph_prob=0.5, graph_type='erods_renyi', case='dlasso', model='diff', rho=0.2603, alpha=0.3013, eta=0.0867, gamma=1.1797e-07, beta=0.001226, delta=0.00012665, tau=0.1142, sequential=False, max_iter_seg=2, max_iter=25, num_epochs=2, optimizer='adam', lr=0.001, momentum=0.5, weight_decay=0.05, lr_scheduler=False, device='cpu', valid=True, seed=42)
+epoch: 0 | train_loss: 2.73 | valid_loss: 2.720
+epoch: 1 | train_loss: 2.72 | valid_loss: 2.717
+Namespace(exp_name='exp for 5 agents', eval=False, method='u-dadmm', seq_num=0, data='simulated', norm_mean=0.5, norm_std=0.5, train_size=1000, snr=2, test_size=200, batch_size=200, P=5, graph_prob=0.5, graph_type='erods_renyi', case='dlasso', model='diff', rho=0.2603, alpha=0.3013, eta=0.0867, gamma=1.1797e-07, beta=0.001226, delta=0.00012665, tau=0.1142, sequential=False, max_iter_seg=2, max_iter=25, num_epochs=2, optimizer='adam', lr=0.001, momentum=0.5, weight_decay=0.05, lr_scheduler=False, device='cpu', valid=True, seed=42)
+Namespace(exp_name='exp for 5 agents', eval=False, method='u-dadmm', seq_num=0, data='simulated', norm_mean=0.5, norm_std=0.5, train_size=1000, snr=2, test_size=200, batch_size=200, P=5, graph_prob=0.5, graph_type='erods_renyi', case='dlasso', model='diff', rho=0.2603, alpha=0.3013, eta=0.0867, gamma=1.1797e-07, beta=0.001226, delta=0.00012665, tau=0.1142, sequential=False, max_iter_seg=2, max_iter=25, num_epochs=2, optimizer='adam', lr=0.001, momentum=0.5, weight_decay=0.05, lr_scheduler=False, device='cpu', valid=True, seed=42)
+Namespace(exp_name='exp for 5 agents', eval=False, method='u-dadmm', seq_num=0, data='simulated', norm_mean=0.5, norm_std=0.5, train_size=1000, snr=2, test_size=200, batch_size=200, P=5, graph_prob=0.5, graph_type='erods_renyi', case='dlasso', model='diff', rho=0.2603, alpha=0.3013, eta=0.0867, gamma=1.1797e-07, beta=0.001226, delta=0.00012665, tau=0.1142, sequential=False, max_iter_seg=2, max_iter=25, num_epochs=2, optimizer='adam', lr=0.001, momentum=0.5, weight_decay=0.05, lr_scheduler=False, device='cpu', valid=True, seed=42)
+epoch: 0 | train_loss: 2.73 | valid_loss: 2.720
+epoch: 1 | train_loss: 2.72 | valid_loss: 2.717
+epoch: 0 | train_loss: 2.77 | valid_loss: 2.763
+epoch: 1 | train_loss: 2.77 | valid_loss: 2.761
+epoch: 0 | train_loss: 2.81 | valid_loss: 2.800
+epoch: 1 | train_loss: 2.81 | valid_loss: 2.799
+epoch: 0 | train_loss: 2.84 | valid_loss: 2.833
+epoch: 1 | train_loss: 2.84 | valid_loss: 2.832
+epoch: 0 | train_loss: 2.87 | valid_loss: 2.865
+epoch: 1 | train_loss: 2.87 | valid_loss: 2.864
+epoch: 0 | train_loss: 2.91 | valid_loss: 2.900
+epoch: 1 | train_loss: 2.91 | valid_loss: 2.898
+epoch: 0 | train_loss: 2.95 | valid_loss: 2.940
+epoch: 1 | train_loss: 2.95 | valid_loss: 2.938
+epoch: 0 | train_loss: 3.00 | valid_loss: 2.985
+epoch: 1 | train_loss: 2.99 | valid_loss: 2.983
+epoch: 0 | train_loss: 3.05 | valid_loss: 3.036
+epoch: 1 | train_loss: 3.04 | valid_loss: 3.033
+epoch: 0 | train_loss: 3.10 | valid_loss: 3.092
+epoch: 1 | train_loss: 3.10 | valid_loss: 3.088
+epoch: 0 | train_loss: 3.17 | valid_loss: 3.154
+epoch: 1 | train_loss: 3.16 | valid_loss: 3.150
+epoch: 0 | train_loss: 3.24 | valid_loss: 3.222
+epoch: 1 | train_loss: 3.23 | valid_loss: 3.217
+Namespace(exp_name='exp for 5 agents', eval=False, method='u-dadmm', seq_num=0, data='simulated', norm_mean=0.5, norm_std=0.5, train_size=1000, snr=2, test_size=200, batch_size=200, P=5, graph_prob=0.5, graph_type='erods_renyi', case='dlasso', model='diff', rho=0.2603, alpha=0.3013, eta=0.0867, gamma=1.1797e-07, beta=0.001226, delta=0.00012665, tau=0.1142, sequential=False, max_iter_seg=2, max_iter=25, num_epochs=2, optimizer='adam', lr=0.001, momentum=0.5, weight_decay=0.05, lr_scheduler=False, device='cpu', valid=True, seed=42)
+epoch: 0 | train_loss: 2.73 | valid_loss: 2.720
+epoch: 1 | train_loss: 2.72 | valid_loss: 2.717
+epoch: 0 | train_loss: 2.77 | valid_loss: 2.763
+epoch: 1 | train_loss: 2.77 | valid_loss: 2.761
+epoch: 0 | train_loss: 2.81 | valid_loss: 2.800
+epoch: 1 | train_loss: 2.81 | valid_loss: 2.799
+epoch: 0 | train_loss: 2.84 | valid_loss: 2.833
+epoch: 1 | train_loss: 2.84 | valid_loss: 2.832
+epoch: 0 | train_loss: 2.87 | valid_loss: 2.865
+epoch: 1 | train_loss: 2.87 | valid_loss: 2.864
+epoch: 0 | train_loss: 2.91 | valid_loss: 2.900
+epoch: 1 | train_loss: 2.91 | valid_loss: 2.898
+epoch: 0 | train_loss: 2.95 | valid_loss: 2.940
+epoch: 1 | train_loss: 2.95 | valid_loss: 2.938
+epoch: 0 | train_loss: 3.00 | valid_loss: 2.985
+epoch: 1 | train_loss: 2.99 | valid_loss: 2.983
+epoch: 0 | train_loss: 3.05 | valid_loss: 3.036
+epoch: 1 | train_loss: 3.04 | valid_loss: 3.033
+epoch: 0 | train_loss: 3.10 | valid_loss: 3.092
+epoch: 1 | train_loss: 3.10 | valid_loss: 3.088
+epoch: 0 | train_loss: 3.17 | valid_loss: 3.154
+epoch: 1 | train_loss: 3.16 | valid_loss: 3.150
+epoch: 0 | train_loss: 3.24 | valid_loss: 3.222
+epoch: 1 | train_loss: 3.23 | valid_loss: 3.217
+Namespace(exp_name='exp for 5 agents', eval=False, method='u-dadmm', seq_num=0, data='simulated', norm_mean=0.5, norm_std=0.5, train_size=1000, snr=2, test_size=200, batch_size=200, P=5, graph_prob=0.5, graph_type='erods_renyi', case='dlasso', model='diff', rho=0.2603, alpha=0.3013, eta=0.0867, gamma=1.1797e-07, beta=0.001226, delta=0.00012665, tau=0.1142, sequential=False, max_iter_seg=2, max_iter=25, num_epochs=2, optimizer='adam', lr=0.001, momentum=0.5, weight_decay=0.05, lr_scheduler=False, device='cpu', valid=True, seed=42)
+epoch: 0 | train_loss: 2.73 | valid_loss: 2.720
+epoch: 1 | train_loss: 2.72 | valid_loss: 2.717
+epoch: 0 | train_loss: 2.77 | valid_loss: 2.763
+epoch: 1 | train_loss: 2.77 | valid_loss: 2.761
+epoch: 0 | train_loss: 2.81 | valid_loss: 2.800
+epoch: 1 | train_loss: 2.81 | valid_loss: 2.799
+epoch: 0 | train_loss: 2.84 | valid_loss: 2.833
+epoch: 1 | train_loss: 2.84 | valid_loss: 2.832
+epoch: 0 | train_loss: 2.87 | valid_loss: 2.865
+epoch: 1 | train_loss: 2.87 | valid_loss: 2.864
+epoch: 0 | train_loss: 2.91 | valid_loss: 2.900
+epoch: 1 | train_loss: 2.91 | valid_loss: 2.898
+epoch: 0 | train_loss: 2.95 | valid_loss: 2.940
+epoch: 1 | train_loss: 2.95 | valid_loss: 2.938
+epoch: 0 | train_loss: 3.00 | valid_loss: 2.985
+epoch: 1 | train_loss: 2.99 | valid_loss: 2.983
+epoch: 0 | train_loss: 3.05 | valid_loss: 3.036
+epoch: 1 | train_loss: 3.04 | valid_loss: 3.033
+epoch: 0 | train_loss: 3.10 | valid_loss: 3.092
+epoch: 1 | train_loss: 3.10 | valid_loss: 3.088
+epoch: 0 | train_loss: 3.17 | valid_loss: 3.154
+epoch: 1 | train_loss: 3.16 | valid_loss: 3.150
+epoch: 0 | train_loss: 3.24 | valid_loss: 3.222
+epoch: 1 | train_loss: 3.23 | valid_loss: 3.217
+Namespace(exp_name='exp for 5 agents', eval=False, method='u-dadmm', seq_num=0, data='simulated', norm_mean=0.5, norm_std=0.5, train_size=1000, snr=2, test_size=200, batch_size=200, P=5, graph_prob=0.5, graph_type='erods_renyi', case='dlasso', model='diff', rho=0.2603, alpha=0.3013, eta=0.0867, gamma=1.1797e-07, beta=0.001226, delta=0.00012665, tau=0.1142, sequential=False, max_iter_seg=2, max_iter=25, num_epochs=2, optimizer='adam', lr=0.001, momentum=0.5, weight_decay=0.05, lr_scheduler=False, device='cpu', valid=True, seed=42)
+Namespace(exp_name='exp for 5 agents', eval=False, method='u-dadmm', seq_num=0, data='simulated', norm_mean=0.5, norm_std=0.5, train_size=1000, snr=2, test_size=200, batch_size=200, P=5, graph_prob=0.5, graph_type='erods_renyi', case='dlasso', model='diff', rho=0.2603, alpha=0.3013, eta=0.0867, gamma=1.1797e-07, beta=0.001226, delta=0.00012665, tau=0.1142, sequential=False, max_iter_seg=2, max_iter=25, num_epochs=2, optimizer='adam', lr=0.001, momentum=0.5, weight_decay=0.05, lr_scheduler=False, device='cpu', valid=True, seed=42)
+Namespace(exp_name='exp for 5 agents', eval=False, method='u-dadmm', seq_num=0, data='simulated', norm_mean=0.5, norm_std=0.5, train_size=1000, snr=2, test_size=200, batch_size=200, P=5, graph_prob=0.5, graph_type='erods_renyi', case='dlasso', model='diff', rho=0.2603, alpha=0.3013, eta=0.0867, gamma=1.1797e-07, beta=0.001226, delta=0.00012665, tau=0.1142, sequential=False, max_iter_seg=2, max_iter=25, num_epochs=2, optimizer='adam', lr=0.001, momentum=0.5, weight_decay=0.05, lr_scheduler=False, device='cpu', valid=True, seed=42)
+Namespace(exp_name='exp for 5 agents', eval=False, method='u-dadmm', seq_num=0, data='simulated', norm_mean=0.5, norm_std=0.5, train_size=1000, snr=2, test_size=200, batch_size=200, P=5, graph_prob=0.5, graph_type='erods_renyi', case='dlasso', model='diff', rho=0.2603, alpha=0.3013, eta=0.0867, gamma=1.1797e-07, beta=0.001226, delta=0.00012665, tau=0.1142, sequential=False, max_iter_seg=2, max_iter=25, num_epochs=2, optimizer='adam', lr=0.001, momentum=0.5, weight_decay=0.05, lr_scheduler=False, device='cpu', valid=True, seed=42)
+Namespace(exp_name='exp for 5 agents', eval=False, method='u-dadmm', seq_num=0, data='simulated', norm_mean=0.5, norm_std=0.5, train_size=1000, snr=2, test_size=200, batch_size=200, P=5, graph_prob=0.5, graph_type='erods_renyi', case='dlasso', model='diff', rho=0.2603, alpha=0.3013, eta=0.0867, gamma=1.1797e-07, beta=0.001226, delta=0.00012665, tau=0.1142, sequential=False, max_iter_seg=2, max_iter=25, num_epochs=2, optimizer='adam', lr=0.001, momentum=0.5, weight_decay=0.05, lr_scheduler=False, device='cpu', valid=True, seed=42)
+Namespace(exp_name='exp for 5 agents', eval=False, method='u-dadmm', seq_num=0, data='simulated', norm_mean=0.5, norm_std=0.5, train_size=1000, snr=2, test_size=200, batch_size=200, P=5, graph_prob=0.5, graph_type='erods_renyi', case='dlasso', model='diff', rho=0.2603, alpha=0.3013, eta=0.0867, gamma=1.1797e-07, beta=0.001226, delta=0.00012665, tau=0.1142, sequential=False, max_iter_seg=2, max_iter=25, num_epochs=2, optimizer='adam', lr=0.001, momentum=0.5, weight_decay=0.05, lr_scheduler=False, device='cpu', valid=True, seed=42)
+epoch: 0 | train_loss: 2.73 | valid_loss: 2.720
+epoch: 1 | train_loss: 2.72 | valid_loss: 2.717
+epoch: 0 | train_loss: 2.77 | valid_loss: 2.763
+epoch: 1 | train_loss: 2.77 | valid_loss: 2.761
+epoch: 0 | train_loss: 2.81 | valid_loss: 2.800
+epoch: 1 | train_loss: 2.81 | valid_loss: 2.799
+epoch: 0 | train_loss: 2.84 | valid_loss: 2.833
+epoch: 1 | train_loss: 2.84 | valid_loss: 2.832
+epoch: 0 | train_loss: 2.87 | valid_loss: 2.865
+epoch: 1 | train_loss: 2.87 | valid_loss: 2.864
+epoch: 0 | train_loss: 2.91 | valid_loss: 2.900
+epoch: 1 | train_loss: 2.91 | valid_loss: 2.898
+epoch: 0 | train_loss: 2.95 | valid_loss: 2.940
+epoch: 1 | train_loss: 2.95 | valid_loss: 2.938
+epoch: 0 | train_loss: 3.00 | valid_loss: 2.985
+epoch: 1 | train_loss: 2.99 | valid_loss: 2.983
+epoch: 0 | train_loss: 3.05 | valid_loss: 3.036
+epoch: 1 | train_loss: 3.04 | valid_loss: 3.033
+epoch: 0 | train_loss: 3.10 | valid_loss: 3.092
+epoch: 1 | train_loss: 3.10 | valid_loss: 3.088
+epoch: 0 | train_loss: 3.17 | valid_loss: 3.154
+epoch: 1 | train_loss: 3.16 | valid_loss: 3.150
+epoch: 0 | train_loss: 3.24 | valid_loss: 3.222
+epoch: 1 | train_loss: 3.23 | valid_loss: 3.217
+Namespace(exp_name='exp for 5 agents', eval=False, method='u-dadmm', seq_num=0, data='simulated', norm_mean=0.5, norm_std=0.5, train_size=1000, snr=2, test_size=200, batch_size=200, P=5, graph_prob=0.5, graph_type='erods_renyi', case='dlasso', model='diff', rho=0.2603, alpha=0.3013, eta=0.0867, gamma=1.1797e-07, beta=0.001226, delta=0.00012665, tau=0.1142, sequential=False, max_iter_seg=2, max_iter=25, num_epochs=2, optimizer='adam', lr=0.001, momentum=0.5, weight_decay=0.05, lr_scheduler=False, device='cpu', valid=True, seed=42)
+Namespace(exp_name='exp for 5 agents', eval=False, method='u-dadmm', seq_num=0, data='simulated', norm_mean=0.5, norm_std=0.5, train_size=1000, snr=2, test_size=200, batch_size=200, P=5, graph_prob=0.5, graph_type='erods_renyi', case='dlasso', model='diff', rho=0.2603, alpha=0.3013, eta=0.0867, gamma=1.1797e-07, beta=0.001226, delta=0.00012665, tau=0.1142, sequential=False, max_iter_seg=2, max_iter=25, num_epochs=2, optimizer='adam', lr=0.001, momentum=0.5, weight_decay=0.05, lr_scheduler=False, device='cpu', valid=True, seed=42)
+Namespace(exp_name='exp for 5 agents', eval=False, method='u-dadmm', seq_num=0, data='simulated', norm_mean=0.5, norm_std=0.5, train_size=1000, snr=2, test_size=200, batch_size=200, P=5, graph_prob=0.5, graph_type='erods_renyi', case='dlasso', model='diff', rho=0.2603, alpha=0.3013, eta=0.0867, gamma=1.1797e-07, beta=0.001226, delta=0.00012665, tau=0.1142, sequential=False, max_iter_seg=2, max_iter=25, num_epochs=2, optimizer='adam', lr=0.001, momentum=0.5, weight_decay=0.05, lr_scheduler=False, device='cpu', valid=True, seed=42)
+Namespace(exp_name='exp for 5 agents', eval=False, method='u-dadmm', seq_num=0, data='simulated', norm_mean=0.5, norm_std=0.5, train_size=1000, snr=2, test_size=200, batch_size=200, P=5, graph_prob=0.5, graph_type='erods_renyi', case='dlasso', model='diff', rho=0.2603, alpha=0.3013, eta=0.0867, gamma=1.1797e-07, beta=0.001226, delta=0.00012665, tau=0.1142, sequential=False, max_iter_seg=2, max_iter=25, num_epochs=2, optimizer='adam', lr=0.001, momentum=0.5, weight_decay=0.05, lr_scheduler=False, device='cpu', valid=True, seed=42)
+Namespace(exp_name='exp for 5 agents', eval=False, method='u-dadmm', seq_num=0, data='simulated', norm_mean=0.5, norm_std=0.5, train_size=100, snr=2, test_size=10, batch_size=10, P=10, graph_prob=0.5, graph_type='erods_renyi', case='dlasso', model='same', rho=0.2603, alpha=0.3013, eta=0.0867, gamma=1.1797e-07, beta=0.001226, delta=0.00012665, tau=0.1142, sequential=False, max_iter_seg=2, max_iter=25, num_epochs=20, optimizer='adam', lr=0.01, momentum=0.5, weight_decay=0.05, lr_scheduler=False, device='cpu', valid=True, seed=42, GHyp_hidden=20, DADMM_mode='same', hyp_mode='GHyp', GHN_iter_num=15)

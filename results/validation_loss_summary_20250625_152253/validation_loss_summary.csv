@@ -1,0 +1,4 @@
+Model,Final Loss,Convergence Epoch,Stability (Std Last 10),Total Epochs
+Single Graph (Unfolded DLASSO),0.274666,68,0.004434,70
+Multiple Graphs (Unfolded DLASSO),0.634776,30,0.020888,70
+Multiple Graphs (GNN DLASSO),0.236119,59,0.003660,70
